@@ -1,0 +1,6 @@
+CONSUL_CONTAINER_NAME="consul-tf-service"
+CONSUL_CONTAINER_IMAGE="consul-tf-service-image"
+CONSUL_VOLUME_NAME="consul-tf-data"
+CONSUL_HOST_PORT="18500"
+DOCKER_HOST_IP=$(ip route get 8.8.8.8 | grep -oP 'src \K\S+')
+CONSUL_ENDPOINT="http://${DOCKER_HOST_IP}:${CONSUL_HOST_PORT}"
