@@ -1,0 +1,6 @@
+env             = "dev"
+short_env       = "d"
+image_container_name = "mock-app"
+image_container_version = "latest"
+mock_app_ipv4 = "10.100.100.100"
+container_name = "container_mock_app"
