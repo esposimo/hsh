@@ -25,13 +25,13 @@ color_scheme: dark
 nav_enabled: true
 nav:
   - title: "Introduzione"
-    url: "/introduzione"
+    url: "/scope.md"
     children:
       - title: "Scopo del progetto"
         url: "/scopo"
 
   - title: "Struttura del progetto"
-    url: "/struttura"
+    url: "/install"
     children:
       - title: "Tecnologie utilizzate"
         url: "/tecnologie"
