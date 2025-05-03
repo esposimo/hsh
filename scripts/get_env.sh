@@ -1,0 +1,15 @@
+#!/bin/bash
+
+REAL_PATH=$(realpath $0)
+PATHNAME=$(dirname ${REAL_PATH})
+
+source ${PATHNAME}/env
+
+echo "{"
+echo "\"CONSUL_CONTAINER_NAME\": \"$CONSUL_CONTAINER_NAME\","
+echo "\"CONSUL_CONTAINER_IMAGE\": \"$CONSUL_CONTAINER_IMAGE\","
+echo "\"CONSUL_VOLUME_NAME\": \"$CONSUL_VOLUME_NAME\","
+echo "\"CONSUL_HOST_PORT\": \"$CONSUL_HOST_PORT\","
+echo "\"DOCKER_HOST_IP\": \"$DOCKER_HOST_IP\","
+echo "\"CONSUL_ENDPOINT\": \"$CONSUL_ENDPOINT\""
+echo "}"
