@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Scripts
+parent: Struttura del progetto
+nav_order: 1
 ---
 
 
