@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Procedura di installazione
+parent: Installazione
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Installaizone
+title: Installazione
 ---
 
 
-In questa pagina ti mostrerò come installare tutto il necessario
+In questa sezione andremo a vedere tutto il necessario per l'installazione
